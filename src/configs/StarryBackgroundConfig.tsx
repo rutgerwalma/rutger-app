@@ -7,10 +7,10 @@ const HeroStarsConfig: ISourceOptions = {
   },
   particles: {
     number: {
-      value: 500,
+      value: 240,
       density: {
         enable: true,
-        value_area: 789.1476416322727,
+        value_area: 800,
       },
     },
     color: {
@@ -32,35 +32,35 @@ const HeroStarsConfig: ISourceOptions = {
       },
     },
     opacity: {
-      value: 0.48927153781200905,
-      random: false,
+      value: 1,
+      random: true,
       anim: {
         enable: true,
-        speed: 0.6,
+        speed: 1,
         opacity_min: 0,
         sync: false,
       },
     },
     size: {
-      value: 2,
+      value: 1,
       random: true,
       anim: {
-        enable: true,
-        speed: 2,
-        size_min: 0,
+        enable: false,
+        speed: 4,
+        size_min: 0.3,
         sync: false,
       },
     },
     line_linked: {
       enable: false,
-      distance: 150,
-      color: "#ffffff",
-      opacity: 0.4,
-      width: 1,
+      distance: 31.5664038763544,
+      color: "#5643fd",
+      opacity: 0.078916009690886,
+      width: 0.473496058145316,
     },
     move: {
       enable: true,
-      speed: 0.7,
+      speed: 1,
       direction: "none",
       random: true,
       straight: false,
@@ -69,7 +69,7 @@ const HeroStarsConfig: ISourceOptions = {
       attract: {
         enable: false,
         rotateX: 600,
-        rotateY: 1200,
+        rotateY: 600,
       },
     },
   },
@@ -78,30 +78,30 @@ const HeroStarsConfig: ISourceOptions = {
     events: {
       onhover: {
         enable: true,
-        mode: "bubble",
+        mode: "grab",
       },
       onclick: {
-        enable: true,
-        mode: "push",
+        enable: false,
+        mode: "repulse",
       },
       resize: true,
     },
     modes: {
       grab: {
-        distance: 400,
+        distance: 179.80868356069138,
         line_linked: {
           opacity: 1,
         },
       },
       bubble: {
-        distance: 83.91608391608392,
-        size: 1,
-        duration: 3,
-        opacity: 1,
+        distance: 250,
+        size: 0,
+        duration: 2,
+        opacity: 0,
         speed: 3,
       },
       repulse: {
-        distance: 200,
+        distance: 400,
         duration: 0.4,
       },
       push: {
