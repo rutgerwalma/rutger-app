@@ -14,7 +14,7 @@ export default function Burger() {
     <>
       <BurgerContainer>
         <LogoBox>
-          <StyledNavLink to={`/`}>R.</StyledNavLink>
+          <StyledNavLink to={`/`}>r_</StyledNavLink>
         </LogoBox>
         <MenuLabel htmlFor="navi-toggle" onClick={handleClick}>
           <Icon isOpened={isOpened}>&nbsp;</Icon>
