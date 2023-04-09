@@ -1,6 +1,5 @@
 // Typescript Menu component
 
-import { isDesktop } from "../constants/screenSizes";
 import NavBar from "./NavBar";
 import Burger from "./Burger";
 import { useMediaQuery } from "react-responsive";
