@@ -36,12 +36,14 @@ const MenuBox = styled.div`
   display: flex;
   width: 100%;
   padding: 1rem 0;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: row;
   color: #ffffff;
   position: relative;
   top: 0;
+  max-width: 1200px;
+  margin: 0 auto;
 `;
 
 const MenuItem = styled.div`
