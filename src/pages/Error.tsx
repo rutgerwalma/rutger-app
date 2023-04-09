@@ -18,6 +18,8 @@ export default function Error() {
 const ErrorBox = styled.div`
   height: 100%;
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 `;
 
 const ErrorBody = styled.div`
