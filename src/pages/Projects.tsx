@@ -110,7 +110,7 @@ const ProjectsBox = styled.div`
   gap: 1rem;
   z-index: 98;
   position: relative;
-  @media (max-width: 768px) {
+  @media (max-width: 1130px) {
     flex-direction: column;
   }
 `;
@@ -126,7 +126,7 @@ const ProjectTile = styled.div`
   flex-direction: column;
   background: rgba(0, 0, 0, 0.33);
   border-radius: 5px;
-  @media (max-width: 768px) {
+  @media (max-width: 1130px) {
     max-width: 100%;
   }
 `;
